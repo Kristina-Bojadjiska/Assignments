@@ -1,0 +1,49 @@
+print("FAKE FAN FINDER")
+print("")
+serialMovie = input("What is your favourite serial movie?: ")
+if serialMovie == "Suits":
+    print("It is a good movie! Let's see if you are a true fan!")
+    favoCharacter = input("Who is your favourite character?: ")
+    if favoCharacter in ["Mike" or "Mike Ross" or "Ross"]:
+        print("That doesn't mean that you have watched the movie.")
+        occupation = input("What is his occupation when Harvey hires him?: ")
+        if occupation == "Associate":
+            print("Hmm,that is correct!")
+            secret = input("What is his secret?: ")
+            if secret == ("He didn't go to Harvard"):
+                print("You are a real fan!")
+    elif favoCharacter in["Luis" or "Luis Litt"]:
+        print("That can't be true!")
+        hobby = input("And what is his most favourite hobby!: ")
+        if hobby == "Mudding":
+            print("You are a real fan!")
+    elif favoCharacter in["Harvey" or "Harvey Specter"]:
+        print("He is a good character!")
+        secretary = input("What is the name of his secretary?: ")
+        if secretary == "Donna":
+            print("You are a real fan!")
+    elif favoCharacter in["Rachel" or "Rachel Zane"]:
+        #print("We're gonna come back to that later")
+        print("She is sweet, but that still doesn't mean anything!")
+        herFather = input("What is the full name of her father?: ")
+        if herFather == "Robert Zane" or "Robert" or "Zane":
+            print("You are a real fan!")
+    elif favoCharacter in["Donna" or "Donna Paulson"]:
+        print("I admire her!But that doesn't prove that you are a real fan!")
+        donnaHobby = input("What is her profession outsite of the office?")
+        if donnaHobby == "Actress":
+            print("You are a real fan!")
+        else:
+            print("You are not a fan!")
+    elif favoCharacter in["Jessica" or "Jessica Pearson" or "Pearson"]:
+        print("She is awesome!")
+        jessicaOcu = input("What is her position in the company?: ")
+        if jessicaOcu == "Managing partner" or "Manager":
+            print("You are a real fan!")
+        else:
+            print("You are not a fan!")
+    else:
+        #print("You are not a real fan!")
+        print("Ha-ha, I knew it! You are a fake fan!")
+else:
+  print("I don't know that movie!")
